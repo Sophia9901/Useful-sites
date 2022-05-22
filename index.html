@@ -9,8 +9,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=IBM+Plex+Sans+KR:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <!-- 자바스크립트 -->
+        <script src="./mouse.js" defer></script>
     </head>
     <body>
+    <div class="cursor"></div>
     <div class="container">
         <div class="head">
             <h1><a href="index.html">Useful Sites</a></h1>
@@ -47,6 +50,7 @@
                     <li><a href="https://youtu.be/jmDace5VPDM">[유튜브] 눈내리는 효과</a></li>
                     <li><a href="https://leejeongmin.vercel.app">[참고자료] 개인 포트폴리오 페이지 1</a></li>
                     <li><a href="https://codepen.io/wyattnolen/pen/zYPWrdg">[참고자료] 개인 포트폴리오 페이지 2</a></li>
+                    <li><a href="https://html.spec.whatwg.org/multipage/introduction.html">[사아트] html에 대하여</a></li>
                 </ul>
             </div>
             <div class="box">
@@ -67,7 +71,13 @@
                     <li><a href="https://okky.kr/">[커뮤니티] OKKY</a></li>
                     <li><a href="https://jqueryui.com/easing/">[Easing] Jqueryui</a></li>
                     <li><a href="https://easings.net/">[Easing] Easing functions</a></li>
-                    <li><a href="https://cubic-bezier.com/ ">[Easing] Cubic-bazier</a></li>
+                    <li><a href="https://cubic-bezier.com/">[Easing] Cubic-bazier</a></li>
+                    <li><a href="https://michalsnik.github.io/aos/">[스크롤 애니메이션] Animate On Scroll Library</a></li>
+                    <li><a href="https://projects.verou.me/prefixfree/">[CSS] CSS 웹 호환성 -prefix-free</a></li>
+                    <li><a href="https://www.creativosonline.org/ko/html-css-%EB%A9%94%EB%89%B4.html#Swanky_puro_CSS_Drop_Down">[사이트] 메뉴모음</a></li>
+                    <li><a href="https://flexbox.help/">[사이트] flex box 테스터</a></li>
+                    <li><a href="https://codepen.io/">[사이트] 코드펜</a></li>
+
             </div>
             <div class="box">
                 <h3>소스관련사이트</h3>
@@ -84,12 +94,24 @@
             </div>
         </div>
     </div>
-    <footer>
+    <!-- <footer>
         <hr>
             <p>
                 <span>제작 : KIMXIXI</span><br>
                 <span>이메일 :thdus4963@daum.net</span><br>
             </p>
-         </footer>
+    </footer> -->
+
+    
+    <!-- <script>
+        const circle = document.querySelector(".circle");
+
+        document.addEventListener("mousemove", (e) => {
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+            circle.style.left = mouseX + 'px';
+            circle.style.top = mouseY + 'px';
+        });
+    </script> -->
     </body>
 </html>
